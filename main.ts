@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import Choice from "inquirer/lib/objects/choice.js";
 

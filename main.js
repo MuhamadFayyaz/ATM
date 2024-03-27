@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let myBalance = 100000; // creating a variable or Current balance
 let myPin = 12345; // pin code 
