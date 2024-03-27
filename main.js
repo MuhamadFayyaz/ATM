@@ -2,6 +2,11 @@
 import inquirer from "inquirer";
 let myBalance = 100000; // creating a variable or Current balance
 let myPin = 12345; // pin code 
+console.log(" AA  TTTTTT M   M ");
+console.log("A  A   TT   MM MM ");
+console.log("AAAA   TT   M M M ");
+console.log("A  A   TT   M   M ");
+console.log("A  A   TT   M   M ");
 console.log("\n ********** WELCOME YOU TO MY ATM ***********\n ");
 console.log("**** PLEASE USE PINCODE 12345 FOR ACCESS ****\n");
 // create a question to ask pincode
@@ -9,7 +14,7 @@ const atm = await inquirer.prompt([
     {
         name: "pincode",
         type: "number",
-        message: "ENTER YOUR PIN NUMBER TO ACCESS YOUR ACCOUNT",
+        message: "ENTER  PIN CODE TO ACCESS ATM ACCOUNT",
     }
 ]);
 // nested conditional statements 
